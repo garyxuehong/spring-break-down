@@ -7,8 +7,8 @@ class WaiterTest {
 
     @Test
     void shouldPlaceOrderWithCorrectId() {
-        Kiosk kiosk = new Kiosk();
-        String food = kiosk.placeOrder("abc");
+        Waiter waiter = new Waiter();
+        String food = waiter.placeOrder("abc");
         assertEquals(food, "some test food");
     }
 }

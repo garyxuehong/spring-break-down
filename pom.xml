@@ -15,6 +15,7 @@
     </description>
     <modules>
         <module>CH01-Pure-Java</module>
+        <module>CH02-Pure-Java-with-DI</module>
     </modules>
 
     <properties>
